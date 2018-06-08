@@ -1,0 +1,287 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.header-top {
+  position: relative;
+  z-index: 103;
+  height: 28px;
+  line-height: 26px;
+  background-color: #f5f5f5;
+  color: #777; }
+
+.top-nav {
+  width: 1170px;
+  margin: 0 auto;
+  position: relative; }
+
+.nav1 {
+  float: left; }
+
+.nav1-1 {
+  position: relative;
+  z-index: 1;
+  padding-left: 15px;
+  padding-right: 23px;
+  width: 46px;
+  height: 27px;
+  cursor: pointer;
+  border-width: 1px 1px 0;
+  border-style: solid;
+  border-color: #f5f5f5;
+  font-size: 14.4px; }
+  .nav1-1 .sanjiao {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 4px solid transparent;
+    border-top-color: #999999; }
+
+.nav2 {
+  float: right; }
+  .nav2 .iphone {
+    float: left;
+    background: url(../img/sprites-hash-9b207a41.png);
+    background-position: -294px -142px;
+    width: 10px;
+    height: 14px;
+    margin-left: 1px;
+    margin-right: 3px;
+    margin-top: 7px;
+    vertical-align: middle; }
+  .nav2 #lie-box {
+    padding-left: 0;
+    padding-right: 0px; }
+  .nav2 .sp1 {
+    font-size: 12px; }
+  .nav2 .gift {
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    width: 15px;
+    height: 18px;
+    background: url(../img/header_sign-hash-0459d02c.gif);
+    margin-right: 3px; }
+  .nav2 .lie li {
+    float: left;
+    list-style: none;
+    padding-left: 13px;
+    padding-right: 20px;
+    position: relative; }
+    .nav2 .lie li a {
+      cursor: pointer;
+      font-size: 12px;
+      text-decoration: none;
+      color: #777; }
+    .nav2 .lie li .denglu {
+      float: left; }
+    .nav2 .lie li .zhuce {
+      float: left;
+      padding-right: 20px;
+      padding-left: 10px; }
+    .nav2 .lie li i {
+      display: inline-block;
+      width: 0;
+      height: 0;
+      border: 4px solid transparent;
+      border-top-color: #999999; }
+    .nav2 .lie li ::after {
+      background: url(../img/sprites-hash-9b207a41.png);
+      background-position: -246px -184px;
+      width: 16px;
+      height: 16px;
+      position: absolute;
+      top: 6px;
+      right: -5px;
+      z-index: 1;
+      content: ''; }
+
+.logo {
+  width: 1170px;
+  margin: 0 auto; }
+  .logo .c-logo {
+    float: left;
+    margin-left: -20px;
+    width: 160px;
+    height: 100px; }
+    .logo .c-logo img {
+      width: 100%;
+      height: 100%; }
+  .logo .d-logo {
+    float: left;
+    width: 304px;
+    height: 100px;
+    background: url("../img/sprites-hash-9b207a41.png"); }
+  .logo .gouwudai {
+    float: right;
+    margin-top: 33px;
+    margin-left: 20px;
+    width: 106px; }
+    .logo .gouwudai .gobox {
+      position: relative;
+      z-index: 1;
+      font-size: 12px;
+      padding-right: 34px;
+      padding-left: 30px;
+      width: 40px;
+      height: 32px;
+      line-height: 32px;
+      cursor: pointer;
+      border: 1px solid #ddd;
+      background-color: #f7f7f7;
+      border-radius: 3px; }
+    .logo .gouwudai .tool {
+      background: url(../img/sprites-hash-9b207a41.png);
+      background-position: -93px -208px;
+      width: 12px;
+      height: 17px;
+      position: absolute;
+      top: 8px;
+      left: 13px;
+      z-index: 1; }
+    .logo .gouwudai .number {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      z-index: 1;
+      border-radius: 8px;
+      height: 16px;
+      width: 24px;
+      line-height: 16px;
+      color: #fff;
+      text-align: center;
+      background-color: #f00581; }
+
+.search {
+  float: right;
+  position: relative;
+  z-index: 10;
+  margin-top: 33px;
+  width: 340px; }
+  .search .search-input {
+    padding: 2px 15px;
+    width: 261px;
+    height: 28px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #333;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #fff; }
+  .search .search-from {
+    position: relative;
+    z-index: 2;
+    width: 338px;
+    height: 32px;
+    border: 1px solid #4c4c4c;
+    border-radius: 3px;
+    background-color: #fff; }
+  .search .search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 8px;
+    width: 47px;
+    height: 24px;
+    text-align: center;
+    background-color: #fff;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px; }
+    .search .search-button .fabutton {
+      background: url(../img/sprites-hash-9b207a41.png);
+      background-position: -72px -208px;
+      width: 17px;
+      height: 17px;
+      display: inline-block; }
+
+.main-nav {
+  clear: both;
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  background-color: #f10180;
+  font-size: 14px;
+  color: #fff; }
+  .main-nav .nav-head {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 100; }
+    .main-nav .nav-head li {
+      float: left;
+      position: relative;
+      z-index: 8;
+      list-style: none; }
+      .main-nav .nav-head li i {
+        margin-left: 6px;
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border: 4px solid transparent;
+        border-top-color: #FFFFFF; }
+      .main-nav .nav-head li a {
+        display: block;
+        height: 40px;
+        text-align: center;
+        font-size: 16px;
+        white-space: nowrap;
+        padding: 0 20px;
+        list-style: none;
+        text-decoration: none;
+        color: #FFFFFF;
+        vertical-align: top; }
+      .main-nav .nav-head li img {
+        vertical-align: middle;
+        margin-top: -3px;
+        margin-right: 6px;
+        border: 0; }
+    .main-nav .nav-head .nav-classify {
+      float: right; }
+    .main-nav .nav-head .nav-foreshow {
+      float: right; }
+      .main-nav .nav-head .nav-foreshow ::before {
+        content: " ";
+        position: absolute;
+        width: 1px;
+        height: 14px;
+        background-color: #bd1067;
+        top: 13px;
+        left: -1px;
+        overflow: hidden; }
+
+.clear {
+  clear: both; }
+
+.section {
+  background: url(../img/15253432407312.jpg);
+  background-repeat: no-repeat;
+  background-position: center top; }
+
+.carousel-bg {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  position: relative;
+  margin-bottom: 10px; }
+
+.carousel-bk {
+  width: 1146px;
+  padding: 12px;
+  padding-bottom: 0;
+  background: rgba(255, 255, 255, 0.86);
+  position: relative;
+  margin: 0 auto;
+  box-shadow: 0 1px 3px rgba(167, 167, 167, 0.4); }
+
+.carouse {
+  width: 1146px;
+  height: 440px;
+  position: relative;
+  margin: 0 auto; }
+  .carouse li {
+    list-style: none; }
+  .carouse .carouse-foot li {
+    float: left; }

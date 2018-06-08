@@ -1,0 +1,33 @@
+@import 'public';
+.section{
+    background:url(../img/15253432407312.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.carousel-bg{
+        padding-top: 30px;
+    padding-bottom: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.carousel-bk{
+        width: 1146px;
+        padding: 12px;
+        padding-bottom: 0;
+        background: rgba(255,255,255,.86);
+        position: relative;
+        margin: 0 auto;
+        box-shadow: 0 1px 3px rgba(167,167,167,.4);
+}
+.carouse{
+    width: 1146px; 
+    height: 440px;
+    position: relative;
+    margin: 0 auto;
+    li{
+        list-style: none;
+    }
+    .carouse-foot li{
+        float: left;
+    }
+}
